@@ -4,28 +4,28 @@
 class KubectlInventory < Formula
   desc "Complete Kubernetes namespace inventory with orphan and stuck finalizer detection"
   homepage "https://github.com/shahneil76/kubectl-inventory"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/shahneil76/kubectl-inventory/releases/download/v0.1.0/kubectl-inventory_0.1.0_darwin_arm64.tar.gz"
-      sha256 "9f9f824b85ddb8e565b4590e7ee6acf0f3508149ec62f60723b52e555705c0aa"
+      url "https://github.com/shahneil76/kubectl-inventory/releases/download/v0.2.0/kubectl-inventory_0.2.0_darwin_arm64.tar.gz"
+      sha256 "d3e749a7a1e532bc5ed065e60698cfe67be370194edf207b328aac2eead76a47"
     end
     on_intel do
-      url "https://github.com/shahneil76/kubectl-inventory/releases/download/v0.1.0/kubectl-inventory_0.1.0_darwin_amd64.tar.gz"
-      sha256 "8dd142c31a54c1b183a81ad081b639d8f250e17e7c733b1f1565d5b450aac810"
+      url "https://github.com/shahneil76/kubectl-inventory/releases/download/v0.2.0/kubectl-inventory_0.2.0_darwin_amd64.tar.gz"
+      sha256 "a9b385410398fa1ce7026a33391522b290a53628489748920a1546c93ff4fdf6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shahneil76/kubectl-inventory/releases/download/v0.1.0/kubectl-inventory_0.1.0_linux_arm64.tar.gz"
-      sha256 "0c882dd94b2ee0c9052917cf7e72f8a8f1c309a302763695951d21aa34b486b4"
+      url "https://github.com/shahneil76/kubectl-inventory/releases/download/v0.2.0/kubectl-inventory_0.2.0_linux_arm64.tar.gz"
+      sha256 "1e9321e6d9d1629711ffd5f1bbfcdfb6d3e58d30870be9bf1e53fec195c5baef"
     end
     on_intel do
-      url "https://github.com/shahneil76/kubectl-inventory/releases/download/v0.1.0/kubectl-inventory_0.1.0_linux_amd64.tar.gz"
-      sha256 "f5a10efa6c5865c92abb672439a5913cb96fea1e36f4e5e51a52407c1454bafb"
+      url "https://github.com/shahneil76/kubectl-inventory/releases/download/v0.2.0/kubectl-inventory_0.2.0_linux_amd64.tar.gz"
+      sha256 "f4df4ce2f661284c5bfa5dceeee066848e3e2ced29495ad738bdd41558575e58"
     end
   end
 
